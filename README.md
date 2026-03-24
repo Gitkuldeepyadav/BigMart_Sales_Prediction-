@@ -12,9 +12,17 @@ pandas <br>
 matplotlib <br>
 seaborn <br>
 
-### Exploratory Data Analysis
+### Exploratory Data Analysis (EDA) :<br>
+Analyzed distribution of Item MRP, Outlet Type, and Item Visibility.
 
-### Data Preprocessing
+### Data Preprocessing :<br>
+1.Handled missing values in Item_Weight and Outlet_Size.<br>
+2.Corrected Item_Visibility (handled 0.0 values using mean imputation).<br>
+3.Fixed inconsistent labels in Item_Fat_Content (Low Fat vs LF).<br>
+
+### Feature Engineering :<br>
+1. Created Outlet_Age from the establishment year.<br>
+2. Derived broad categories for Item_Type (Food, Drinks, Non-Consumable).<br>
 
 ### Used models:
 Linear_Regression <br>
